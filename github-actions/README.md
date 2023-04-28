@@ -10,6 +10,8 @@ Move any of the templates in this folder to a folder in your own repository. The
 
 Depending on the `trigger` defined in each workflow it will be triggered by a commit, a tag/PR, a manual trigger or possibly others.
 
+You can have multiple workflows in one repository as long as the filename of each workflow is unique.
+
 Each workflow will:
 * use variables to make it easier to customize a build for consumers. This can be found under the `env` section
 * have a couple of lines of general description at the top describing what it does and things that are good to know
